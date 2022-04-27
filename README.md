@@ -71,12 +71,11 @@ package kr.co.companyName.projectName.business.str.
 ### 5.1 모든 식별자에 공통적인 규칙
 ### 5.2 식별자 유형별 규칙
 #### 5.2.1 `Package` 이름
-package 이름은 모두 소문자이며, 연속 된 단어는 단순히 함께 연결됩니다.(밑줄 불가능)
+package 이름은 모두 소문자이며, 연속 된 단어는 소문자로 연결됩니다.(`_` 불가능)
 ``` java
 package com.example.deepspace;   // ⭕️
 package com.example.deep_space;  // ❌
 package com.example.deepSpace;   // ❌
-
 ```
 #### 5.3
 ---
