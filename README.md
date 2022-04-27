@@ -28,8 +28,9 @@ Google Java Style Guide 번역본
 #### 4.8
 
 ### 5. 네이밍
-#### 5.1
-#### 5.2
+#### 5.1 모든 식별자에 공통적인 규칙
+#### 5.2 식별자 유형별 규칙
+- 5.2.1 `Package` 이름
 #### 5.3
 
 ### 6. 프로그래밍 실습
@@ -59,12 +60,25 @@ Java 소스 파일은 여기에 있는 규칙을 준수하는 경우에만 Googl
 패키지 선언 시 줄 바꿈되지 않습니다.
 열제한(#### 목차 4.4 : 100)은 패지키 선언 시 적용되지 않습니다.
 ``` java
-package kr.co.companyName.projectName.business.str.service; // 가능
+package kr.co.companyname.projectname.platformname.business.str.service; // 가능
 package kr.co.companyName.projectName.business.str.
         service; // 불가능
 ```
 ### 3.3 `Import` 설명
 ### 3.4 `Class` 선언
+
+## 5. 네이밍
+### 5.1 모든 식별자에 공통적인 규칙
+### 5.2 식별자 유형별 규칙
+#### 5.2.1 `Package` 이름
+package 이름은 모두 소문자이며, 연속 된 단어는 단순히 함께 연결됩니다.(밑줄 불가능)
+``` java
+package com.example.deepspace;   // ⭕️
+package com.example.deep_space;  // ❌
+package com.example.deepSpace;   // ❌
+
+```
+#### 5.3
 ---
 ## 참고
 [Google Java Style Guide 원본](https://google.github.io/styleguide/javaguide.html#s7-javadoc)
