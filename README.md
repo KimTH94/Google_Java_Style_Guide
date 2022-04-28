@@ -69,6 +69,15 @@ package kr.co.companyName.projectName.business.str.
 
 ## 5. 네이밍
 ### 5.1 모든 식별자에 공통적인 규칙
+식별자는 ASCII 문자와 숫자만 사용하며, 아래에 언급된 경우 `_`을 사용하기도 합니다.  
+따라서 유효한 식별자 이름은  **\w+ 정규식**(한 개 이상의 알파벳 또는 숫자)과 일치합니다.  
+Google Style에서는 특수 접두사나 접미사가 사용되지 않습니다.
+``` java
+String name_;   // ❌
+String mName;   // ❌
+String s_name;  // ❌
+String kName;   // ❌
+```  
 ### 5.2 식별자 유형별 규칙
 #### 5.2.1 `Package` 이름
 package 이름은 모두 소문자이며, 연속 된 단어는 소문자로 연결됩니다.(`_` 불가능)
