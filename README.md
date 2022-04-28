@@ -80,12 +80,14 @@ String kName;   // ❌
 ```  
 ### 5.2 식별자 유형별 규칙
 #### 5.2.1 `Package` 이름
-package 이름은 모두 소문자이며, 연속 된 단어는 소문자로 연결됩니다.(`_` 불가능)
+Package 이름은 모두 소문자이며, 연속 된 단어는 소문자로 연결됩니다.(`_` 불가능)
 ``` java
 package com.example.deepspace;   // ⭕️
 package com.example.deep_space;  // ❌
 package com.example.deepSpace;   // ❌
 ```
+#### 5.2.2 `Class` 이름
+Class 이름은 [UpperCamelCase](https://velog.io/@thehill_hannam/Case-Naming-Convention-%EC%A0%95%EB%A6%AC#uppercamelcase)
 #### 5.3
 ---
 ## 참고
